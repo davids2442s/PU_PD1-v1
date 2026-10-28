@@ -1,0 +1,23 @@
+PĀRBAUDES DARBS — VIENKĀRŠU ALGORITMU IZSTRĀDE
+1. variants
+
+Katram uzdevumam ir savs fails. Pildi pēc kārtas: vispirms A, tad B, tad C.
+
+A faili — kods ir salauzts. Atrodi un salabo.
+B faili — kods ir iesākts. Aizpildi vietu, kur stāv TODO.
+C faili — tukša lapa. Uzraksti visu pats.
+
+Python failu atver ar IDLE: labais klikšķis, Edit with IDLE. Palaist: F5.
+
+Katru failu pēc pabeigšanas saglabā.
+
+IESNIEGŠANA
+Visus failus augšupielādē savā GitHub repozitorijā un saiti iesūti pasniedzējam.
+
+Drīkst izmantot savus pierakstus. Mākslīgā intelekta rīkus izmantot nav atļauts.
+
+MEKLĒŠANA
+Meklēt internetā drīkst, bet MI ģenerētas atbildes izmantot nav atļauts — arī ne
+Google AI kopsavilkumu (AI Overview) virs rezultātiem. Lai tas neparādītos,
+meklējuma BEIGĀS pieraksti -ai, piemēram:    python while cikls -ai
+Ja kopsavilkums tomēr parādās, to nelasa un neizmanto.
