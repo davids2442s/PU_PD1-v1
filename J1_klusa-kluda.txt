@@ -1,0 +1,20 @@
+## J1. Klusā kļūda   (4 p.) 
+# Skripts palaižas bez kļūdas un izvada desmit servisus. Tomēr atbilde nesakrīt ar to, ko tu 
+# gaidīji. Kā tu to pamanītu un ko pārbaudītu vispirms?
+#>
+
+$services = @(Get-Service | Sort-Object -Property Name | Select-Object -First 10)
+
+if ($services.Count -ne 10) {
+	throw "Sagaidīti 10 servisi, bet atrasti $($services.Count)."
+}
+
+$names = @($services | ForEach-Object { $_.Name })
+$sortedNames = @($names | Sort-Object)
+if (($names -join "`n") -ne ($sortedNames -join "`n")) {
+	throw "Servisu nosaukumi nav sakārtoti alfabētiski."
+}
+
+$services | Format-Table -Property Name, Status, DisplayName -AutoSize
+
+

@@ -7,4 +7,3 @@
 # Šis fails ir tukšs. Visu kodu raksti pats zem šīs rindas.
 # ----------------------------------------------------------------------                                                                                                Mainīgo, kurā glabā atrastās rindas, nosauc ar vārdu rezultati.
 
-
