@@ -12,4 +12,6 @@ $apturetie = Get-Service |
     Sort-Object Name |
     Select-Object Name, Status
 
-# TODO: saglabā $apturetie failā apturetie.csv
+$apturetie | Export-Csv -Path "apturetie.csv" -NoTypeInformation -Encoding UTF8
+Write-Host "done"
+
